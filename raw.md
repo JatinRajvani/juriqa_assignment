@@ -1,336 +1,70 @@
-document -1 
-CONSTRUCTION SERVICES AGREEMENT
-
-Version 1 — Original comparison baseline
-
-Agreement date: 15 April 2027Owner: CedarWorks Property Group Ltd.Contractor: Ironvale Building Services LLC
-
-Fictional test document. Not for legal or construction use.
-
-
-
-1. Parties and Project
-
-This Construction Services Agreement (“Agreement”) is entered into on 15 April 2027 by CedarWorks Property Group Ltd. (“Owner”) and Ironvale Building Services LLC (“Contractor”).
-
-Contractor will renovate the Owner’s fictional office facility at 18 Harbour Avenue, including interior finishes, meeting rooms, electrical upgrades, and related project coordination. The project is a test scenario only.
-
-2. Scope and Deliverables
-
-Contractor will provide the labour, materials, equipment, supervision, and project management reasonably necessary to complete the work described in Schedule A.
-
-Any work outside the stated scope requires a written change order signed by both Parties before the additional work begins.
-
-Contractor will provide weekly progress summaries and maintain a current project schedule accessible to the Owner’s project representative.
-
-3. Contract Price and Payment
-
-The fixed contract price is USD 480,000, excluding applicable sales taxes.
-
-Owner will pay progress invoices within 30 calendar days after receipt of a valid invoice and the supporting progress certificate.
-
-Ten percent (10%) of each progress payment will be retained until practical completion. Half of the retained amount will be released at practical completion and the balance after the defects liability period, subject to unresolved defects.
-
-4. Schedule and Delay
-
-Contractor will achieve practical completion no later than 30 November 2027, subject to approved extensions of time under this Agreement.
-
-If Contractor causes an unexcused delay, liquidated damages will accrue at USD 1,000 per calendar day, capped at USD 30,000 in aggregate.
-
-Contractor must notify Owner of an event likely to delay the work within 5 Business Days after becoming aware of it and provide reasonable particulars of the expected effect.
-
-5. Variations and Acceptance
-
-Owner will review a submitted milestone within 10 Business Days and either accept it or provide written reasons for rejection. Contractor will correct rejected work within a reasonable period agreed by the Parties.
-
-A variation is not effective unless documented in a written change order describing the scope, price adjustment, and schedule impact.
-
-Contractor must not substitute specified materials without Owner’s prior written approval.
-
-6. Safety and Site Access
-
-Contractor will comply with applicable site safety requirements, provide appropriate protective equipment, and ensure its personnel receive relevant safety instructions.
-
-Contractor will maintain a site incident register and notify Owner of a serious incident as soon as reasonably practicable and in any event within 24 hours.
-
-Owner may suspend access to an affected area where there is a reasonable safety concern, provided the Parties cooperate to minimize avoidable disruption.
-
-7. Insurance
-
-Contractor will maintain workers’ compensation insurance as required by law, commercial general liability insurance of at least USD 2,000,000 per occurrence, and contractor’s all-risk insurance covering the replacement value of the work and materials.
-
-Contractor will provide current certificates of insurance before mobilization and upon reasonable request.
-
-8. Defects and Warranty
-
-The defects liability period is 12 months from practical completion. Contractor must respond to a reported urgent defect within 2 Business Days and commence corrective work as soon as reasonably practicable.
-
-Contractor will correct defects attributable to its workmanship or materials at its own cost, except to the extent caused by Owner misuse, unauthorized alteration, or ordinary wear and tear.
-
-9. Indemnity and Liability
-
-Contractor will indemnify Owner against third-party bodily injury and tangible property damage to the extent caused by Contractor’s negligent acts or omissions.
-
-Subject to the exclusions in this section, Contractor’s aggregate liability under this Agreement will not exceed the contract price.
-
-Neither Party will be liable for indirect or consequential loss, except to the extent such loss forms part of a third-party claim covered by an express indemnity.
-
-10. Termination
-
-Either Party may terminate for a material breach that remains uncured 20 Business Days after written notice.
-
-Owner may terminate for convenience on 30 calendar days’ written notice. Owner will pay for conforming work completed and approved demobilization costs incurred up to the effective termination date, subject to mitigation.
-
-On termination, Contractor will secure the site, hand over completed work and project records, and return Owner-provided materials.
-
-11. Environmental and Quality Requirements
-
-Contractor will segregate construction waste where practicable and dispose of regulated waste through appropriately authorized facilities.
-
-Contractor will maintain quality inspection records and provide copies of material test certificates required by Schedule A.
-
-Owner may inspect work on reasonable notice, but inspection does not relieve Contractor of its contractual obligations.
-
-12. Disputes and General Terms
-
-The project managers will first attempt to resolve a dispute through good-faith discussions for 10 Business Days. If unresolved, either Party may refer the dispute to mediation before commencing court proceedings, except for urgent injunctive relief.
-
-This Agreement is governed by the laws of Scotland, and the courts of Edinburgh have exclusive jurisdiction.
-
-Neither Party may assign this Agreement without the other Party’s prior written consent, except to a successor acquiring substantially all relevant business assets.
-
-This Agreement and its signed change orders constitute the entire agreement between the Parties.
-
-
-
-document - 2
-CONSTRUCTION SERVICES AGREEMENT
-
-Version 2 — Revised comparison test
-
-Agreement date: 15 April 2027Owner: CedarWorks Property Group Ltd.Contractor: Ironvale Building Services LLC
-
-Fictional test document. Not for legal or construction use.
-
-
-
-1. Parties and Project
-
-This Construction Services Agreement (“Agreement”) is entered into on 15 April 2027 by CedarWorks Property Group Ltd. (“Owner”) and Ironvale Building Services LLC (“Contractor”).
-
-Contractor will renovate the Owner’s fictional office facility at 18 Harbour Avenue, including interior finishes, meeting rooms, electrical upgrades, and related project coordination. The project is a test scenario only.
-
-2. Scope and Deliverables
-
-Contractor will provide the labour, materials, equipment, supervision, and project management reasonably necessary to complete the work described in Schedule A.
-
-Any work outside the stated scope requires a written change order signed by both Parties before the additional work begins.
-
-Contractor will provide weekly progress summaries and maintain a current project schedule accessible to the Owner’s project representative.
-
-3. Contract Price and Payment
-
-The fixed contract price is USD 525,000, excluding applicable sales taxes.
-
-Owner will pay progress invoices within 45 calendar days after receipt of a valid invoice and the supporting progress certificate.
-
-Five percent (5%) of each progress payment will be retained until practical completion. Half of the retained amount will be released at practical completion and the balance after the defects liability period, subject to unresolved defects.
-
-4. Schedule and Delay
-
-Contractor will achieve practical completion no later than 31 January 2028, subject to approved extensions of time under this Agreement.
-
-If Contractor causes an unexcused delay, liquidated damages will accrue at USD 1,500 per calendar day, capped at USD 45,000 in aggregate.
-
-Contractor must notify Owner of an event likely to delay the work within 10 Business Days after becoming aware of it and provide reasonable particulars of the expected effect.
-
-5. Variations and Acceptance
-
-Owner will review a submitted milestone within 15 Business Days and either accept it or provide written reasons for rejection. Contractor will correct rejected work within a reasonable period agreed by the Parties.
-
-A variation is not effective unless documented in a written change order describing the scope, price adjustment, and schedule impact.
-
-Contractor must not substitute specified materials without Owner’s prior written approval.
-
-6. Safety and Site Access
-
-Contractor will comply with applicable site safety requirements, provide appropriate protective equipment, and ensure its personnel receive relevant safety instructions.
-
-Contractor will maintain a site incident register and notify Owner of a serious incident as soon as reasonably practicable and in any event within 48 hours.
-
-Owner may suspend access to an affected area where there is a reasonable safety concern, provided the Parties cooperate to minimize avoidable disruption.
-
-7. Insurance
-
-Contractor will maintain workers’ compensation insurance as required by law, commercial general liability insurance of at least USD 1,000,000 per occurrence, and contractor’s all-risk insurance covering the replacement value of the work and materials.
-
-Contractor will provide current certificates of insurance before mobilization and upon reasonable request.
-
-8. Defects and Warranty
-
-The defects liability period is 24 months from practical completion. Contractor must respond to a reported urgent defect within 5 Business Days and commence corrective work as soon as reasonably practicable.
-
-Contractor will correct defects attributable to its workmanship or materials at its own cost, except to the extent caused by Owner misuse, unauthorized alteration, or ordinary wear and tear.
-
-9. Indemnity and Liability
-
-Contractor will indemnify Owner against third-party bodily injury and tangible property damage to the extent caused by Contractor’s negligent acts or omissions.
-
-Subject to the exclusions in this section, Contractor’s aggregate liability under this Agreement will not exceed 50% of the contract price.
-
-Neither Party will be liable for indirect or consequential loss, except to the extent such loss forms part of a third-party claim covered by an express indemnity.
-
-10. Termination
-
-Either Party may terminate for a material breach that remains uncured 30 Business Days after written notice.
-
-Owner may terminate for convenience on 15 calendar days’ written notice. Owner will pay for conforming work completed and approved demobilization costs incurred up to the effective termination date, subject to mitigation.
-
-On termination, Contractor will secure the site, hand over completed work and project records, and return Owner-provided materials.
-
-11. Environmental and Quality Requirements
-
-Contractor will segregate construction waste where practicable and dispose of regulated waste through appropriately authorized facilities. Contractor will submit a monthly waste-diversion summary showing estimated quantities reused, recycled, and sent to landfill.
-
-Contractor will maintain quality inspection records and provide copies of material test certificates required by Schedule A. Contractor will submit a monthly waste-diversion summary showing estimated quantities reused, recycled, and sent to landfill.
-
- Contractor will submit a monthly waste-diversion summary showing estimated quantities reused, recycled, and sent to landfill.
-
-12. Disputes and General Terms
-
-The project managers will first attempt to resolve a dispute through good-faith discussions for 15 Business Days. If unresolved, either Party may refer the dispute to mediation before commencing court proceedings, except for urgent injunctive relief.
-
-This Agreement is governed by the laws of Scotland, and the courts of Edinburgh have exclusive jurisdiction.
-
-Neither Party may assign this Agreement without the other Party’s prior written consent, except to a successor acquiring substantially all relevant business assets.
-
-This Agreement and its signed change orders constitute the entire agreement between the Parties.
-
-
-expected output 
-Testing answer key — do not upload this file as one of the comparison documents.
-
-Contract price: USD 480,000 → USD 525,000. Price increases by USD 45,000.
-
-Payment deadline: 30 → 45 calendar days. Payment deadline extends by 15 days.
-
-Retention: 10% → 5%. Retained portion of progress payments is reduced.
-
-Practical completion: 30 November 2027 → 31 January 2028. Completion deadline moves 62 days later.
-
-Liquidated damages: USD 1,000/day capped at USD 30,000 → USD 1,500/day capped at USD 45,000. Daily amount and aggregate cap both increase.
-
-Delay notice: 5 → 10 Business Days. Longer notice period may reduce prompt reporting.
-
-Milestone review: 10 → 15 Business Days. Owner has more time to review milestones.
-
-Serious incident notification: 24 → 48 hours. Safety incident notification window is extended.
-
-General liability insurance: USD 2,000,000 → USD 1,000,000 per occurrence. Required coverage is reduced.
-
-Defects liability period: 12 → 24 months. Warranty/defect period extends.
-
-Urgent defect response: 2 → 5 Business Days. Response commitment becomes slower.
-
-Contractor liability cap: Contract price → 50% of contract price. Cap is reduced, potentially lowering Contractor exposure.
-
-Breach cure period: 20 → 30 Business Days. Longer cure period before termination for breach.
-
-Convenience termination: 30 → 15 calendar days' notice. Owner's notice period is shortened.
-
-Dispute discussions: 10 → 15 Business Days. Initial informal dispute period is extended.
-
-Inspection clause: Present in V1; removed in V2. Owner's express inspection wording is removed; assess with remaining quality obligations.
-
-Waste-diversion report: Absent in V1; added in V2. New monthly environmental reporting obligation.
-
-Examples of unchanged terms
-
-Agreement date remains 15 April 2027.
-
-Change orders still require written signature by both Parties.
-
-Contractor must provide current insurance certificates before mobilization.
-
-Owner misuse and ordinary wear and tear remain exceptions to defect correction.
-
-Governing law remains Scotland, with Edinburgh courts having exclusive jurisdiction.
-
-Assignment restriction remains subject to the stated successor exception.
-
-This key lists intended differences; always inspect the source documents and validate actual text before treating a result as a model failure.
-
-
-our model outcome 
-CONSTRUCTION SERVICES AGREEMENT
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in CONSTRUCTION SERVICES AGREEMENT.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"Version 1 — Original comparison baseline Agreement date: 15 April 2027Owner: CedarWorks Property Group Ltd.Contractor: Ironvale Building Services LLC Fictional test document. Not for legal or construction use."
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"Version 2 — Revised comparison test Agreement date: 15 April 2027Owner: CedarWorks Property Group Ltd.Contractor: Ironvale Building Services LLC Fictional test document. Not for legal or construction use."
-3. Contract Price and Payment
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 3. Contract Price and Payment.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"The fixed contract price is USD 480,000, excluding applicable sales taxes. Owner will pay progress invoices within 30 calendar days after receipt of a valid invoice and the supporting progress certificate. Ten percent (10%) of each progress payment will be retained until practical completion. Half o"
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"The fixed contract price is USD 525,000, excluding applicable sales taxes. Owner will pay progress invoices within 45 calendar days after receipt of a valid invoice and the supporting progress certificate. Five percent (5%) of each progress payment will be retained until practical completion. Half o"
-4. Schedule and Delay
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 4. Schedule and Delay.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"Contractor will achieve practical completion no later than 30 November 2027, subject to approved extensions of time under this Agreement. If Contractor causes an unexcused delay, liquidated damages will accrue at USD 1,000 per calendar day, capped at USD 30,000 in aggregate. Contractor must notify O"
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"Contractor will achieve practical completion no later than 31 January 2028, subject to approved extensions of time under this Agreement. If Contractor causes an unexcused delay, liquidated damages will accrue at USD 1,500 per calendar day, capped at USD 45,000 in aggregate. Contractor must notify Ow"
-5. Variations and Acceptance
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 5. Variations and Acceptance.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"Owner will review a submitted milestone within 10 Business Days and either accept it or provide written reasons for rejection. Contractor will correct rejected work within a reasonable period agreed by the Parties. A variation is not effective unless documented in a written change order describing t"
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"Owner will review a submitted milestone within 15 Business Days and either accept it or provide written reasons for rejection. Contractor will correct rejected work within a reasonable period agreed by the Parties. A variation is not effective unless documented in a written change order describing t"
-6. Safety and Site Access
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 6. Safety and Site Access.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"Contractor will comply with applicable site safety requirements, provide appropriate protective equipment, and ensure its personnel receive relevant safety instructions. Contractor will maintain a site incident register and notify Owner of a serious incident as soon as reasonably practicable and in "
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"Contractor will comply with applicable site safety requirements, provide appropriate protective equipment, and ensure its personnel receive relevant safety instructions. Contractor will maintain a site incident register and notify Owner of a serious incident as soon as reasonably practicable and in "
-7. Insurance
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 7. Insurance.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"Contractor will maintain workers’ compensation insurance as required by law, commercial general liability insurance of at least USD 2,000,000 per occurrence, and contractor’s all-risk insurance covering the replacement value of the work and materials. Contractor will provide current certificates of "
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"Contractor will maintain workers’ compensation insurance as required by law, commercial general liability insurance of at least USD 1,000,000 per occurrence, and contractor’s all-risk insurance covering the replacement value of the work and materials. Contractor will provide current certificates of "
-8. Defects and Warranty
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 8. Defects and Warranty.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"The defects liability period is 12 months from practical completion. Contractor must respond to a reported urgent defect within 2 Business Days and commence corrective work as soon as reasonably practicable. Contractor will correct defects attributable to its workmanship or materials at its own cost"
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"The defects liability period is 24 months from practical completion. Contractor must respond to a reported urgent defect within 5 Business Days and commence corrective work as soon as reasonably practicable. Contractor will correct defects attributable to its workmanship or materials at its own cost"
-9. Indemnity and Liability
-modified
-medium Risk
-Substantive Impact:
-Textual differences identified in 9. Indemnity and Liability.
-Version 1 (CedarWorks_Construction_Agreement_V1.docx):
-"Contractor will indemnify Owner against third-party bodily injury and tangible property damage to the extent caused by Contractor’s negligent acts or omissions. Subject to the exclusions in this section, Contractor’s aggregate liability under this Agreement will not exceed the contract price. Neithe"
-Version 2 (CedarWorks_Construction_Agreement_V2_Revised.docx):
-"Contractor will indemnify Owner against third-party bodily injury and tangible property damage to the extent caused by Contractor’s negligent acts or omissions. Subject to the exclusions in this section, Contractor’s aggregate liability under this Agreement will not exceed 50% of the contract price."
+MASTER SERVICES AGREEMENT
+Sample Contract for Legal Document Analysis Testing
+1. Parties
+This Master Services Agreement (the “Agreement”) is entered into between Northstar Technologies Pvt. Ltd., a company incorporated under the laws of India (“Client”), and BluePeak Consulting LLP (“Service Provider”). The Client and Service Provider are individually a “Party” and together the “Parties.”
+2. Effective Date and Term
+This Agreement becomes effective on 1 January 2027 (the “Effective Date”) and will continue for an initial term of twenty-four (24) months unless terminated earlier in accordance with this Agreement. After the initial term, the Agreement will automatically renew for successive twelve (12) month periods unless either Party gives written notice of non-renewal at least sixty (60) days before the end of the then-current term.
+3. Scope of Services
+The Service Provider shall provide software development, technical consulting, application maintenance, and related professional services described in individual Statements of Work (“SOWs”). Each SOW will identify the applicable deliverables, milestones, fees, assumptions, and acceptance criteria.
+4. Order of Precedence
+If there is a conflict between this Agreement and an SOW, this Agreement controls unless the SOW expressly identifies the provision of this Agreement that it overrides. A purchase order does not amend this Agreement and will have no effect to the extent it conflicts with this Agreement.
+
+ MASTER SERVICES AGREEMENT — COMMERCIAL TERMS
+5. Fees and Payment
+The Client shall pay the fees specified in each applicable SOW. Unless an SOW states otherwise, invoices are payable within thirty (30) calendar days after the invoice date. The Service Provider may suspend non-critical services if an undisputed invoice remains unpaid for more than fifteen (15) days after written notice of overdue payment.
+6. Taxes
+Fees are exclusive of applicable goods and services taxes, value-added taxes, and similar indirect taxes. The Client shall be responsible for such taxes except taxes imposed on the Service Provider’s net income, payroll, or property.
+7. Confidentiality
+Each Party may receive confidential business, technical, financial, or commercial information of the other Party. The receiving Party shall use such information only to perform or receive services under this Agreement and shall protect it using at least reasonable security measures. Confidentiality obligations do not apply to information that is publicly available without breach, was lawfully known before disclosure, is independently developed without use of confidential information, or must be disclosed by law.
+8. Data Protection and Security
+The Service Provider shall implement reasonable administrative, technical, and organizational safeguards appropriate to the nature of the information processed. Where personal data is processed on behalf of the Client, the Parties shall comply with applicable data protection laws and any applicable data processing addendum agreed in writing.
+9. Intellectual Property
+Each Party retains ownership of intellectual property that it owned before the Effective Date. Subject to payment of all applicable fees, the Client will own the final custom software deliverables specifically created for the Client under an SOW. The Service Provider retains ownership of its pre-existing tools, libraries, frameworks, templates, know-how, and generic development components.
+
+ MASTER SERVICES AGREEMENT — LIABILITY & TERMINATION
+10. Warranties
+The Service Provider warrants that it will perform the services in a professional and workmanlike manner consistent with generally accepted industry standards. Except as expressly stated in this Agreement, the services are provided without additional warranties, whether express or implied.
+11. Limitation of Liability
+Except for liability arising from a Party’s fraud, wilful misconduct, or breach of confidentiality, neither Party will be liable to the other for any indirect, incidental, special, consequential, or punitive damages, including loss of profits or loss of business opportunity.
+Subject to the exclusions above, each Party’s aggregate liability arising out of or relating to this Agreement will not exceed AED 100,000. The liability cap applies to all claims arising under contract, tort, negligence, or any other legal theory, except to the extent prohibited by applicable law.
+12. Indemnification
+The Service Provider shall defend and indemnify the Client against third-party claims alleging that the Client’s authorized use of a custom deliverable infringes a third party’s intellectual property rights, provided that the Client promptly notifies the Service Provider and reasonably cooperates in the defense.
+13. Termination for Cause
+Either Party may terminate this Agreement by written notice if the other Party materially breaches this Agreement and fails to cure the breach within thirty (30) days after receiving written notice describing the breach.
+14. Termination for Convenience
+The Client may terminate this Agreement for convenience upon ninety (90) days’ prior written notice. The Service Provider may not terminate this Agreement for convenience during the initial term.
+
+ MASTER SERVICES AGREEMENT — EFFECT OF TERMINATION
+15. Effect of Termination
+Upon termination or expiration, the Client shall pay all undisputed amounts accrued through the effective date of termination. The Service Provider shall reasonably cooperate in transitioning active services to the Client or its designated replacement provider for up to thirty (30) days, subject to payment of the applicable transition fees.
+16. Return and Deletion of Information
+Upon written request following termination, each Party shall return or securely delete the other Party’s Confidential Information, except that one archival copy may be retained where required by law or legitimate internal compliance requirements. Retained information remains subject to the confidentiality obligations of this Agreement.
+17. Non-Solicitation
+During the term of this Agreement and for twelve (12) months thereafter, neither Party shall knowingly solicit for employment an employee of the other Party who was materially involved in providing or receiving services under an SOW. This restriction does not prohibit general advertisements or recruitment campaigns not specifically targeted at the other Party’s personnel.
+18. Dispute Resolution
+The Parties shall first attempt in good faith to resolve any dispute through discussions between senior representatives. If the dispute is not resolved within thirty (30) days after written escalation, either Party may commence proceedings in the courts specified in Section 19.
+19. Governing Law and Jurisdiction
+This Agreement shall be governed by the laws of the United Arab Emirates. The courts of Dubai, United Arab Emirates, shall have exclusive jurisdiction over disputes arising out of or relating to this Agreement.
+
+ MASTER SERVICES AGREEMENT — GENERAL TERMS
+20. Force Majeure
+Neither Party shall be liable for delay or failure to perform caused by events beyond its reasonable control, including natural disasters, war, terrorism, widespread telecommunications failures, governmental actions, or major infrastructure outages, provided that the affected Party promptly notifies the other Party and uses reasonable efforts to mitigate the impact.
+21. Assignment
+Neither Party may assign this Agreement without the prior written consent of the other Party, except that either Party may assign the Agreement to an affiliate or in connection with a merger, reorganization, or sale of substantially all of its assets, provided the assignee assumes the assigning Party’s obligations.
+22. Notices
+All notices under this Agreement must be in writing and delivered by recognized courier, registered mail, or email to the contact details specified in the applicable SOW. Notices by email are effective when the recipient acknowledges receipt.
+23. Entire Agreement
+This Agreement, together with all executed SOWs and written amendments, constitutes the entire agreement between the Parties concerning its subject matter and supersedes prior discussions and agreements relating to that subject matter.
+24. Amendments and Waiver
+Any amendment to this Agreement must be in writing and signed by authorized representatives of both Parties. A waiver of any provision is effective only if made in writing and signed by the Party granting the waiver.
+25. Severability
+If any provision of this Agreement is held invalid or unenforceable, the remaining provisions will remain in effect. The Parties shall negotiate in good faith a valid replacement provision that most closely reflects the original commercial intent.
+Signature
+For Northstar Technologies Pvt. Ltd.
+Name: ____________________
+Title: _____________________
+Date: _____________________
+For BluePeak Consulting LLP
+Name: ____________________
+Title: _____________________
+Date: _____________________

@@ -4,8 +4,7 @@ import DocumentModel from '@/models/Document';
 import ChatMessageModel from '@/models/ChatMessage';
 import { verifyAllQuotesInAnswer } from '@/lib/quoteVerifier';
 import { getContextForQuery } from '@/lib/retriever';
-import { getAIModel } from '@/lib/aiProvider';
-import { streamText } from 'ai';
+import { streamTextWithFallback } from '@/lib/aiProvider';
 
 export async function GET(req: NextRequest) {
   try {
@@ -91,8 +90,7 @@ ${
 ${contextResult.contextText}
 --- END OF CONTRACT DOCUMENT ---`;
 
-    const result = streamText({
-      model: getAIModel(),
+    const result = streamTextWithFallback({
       system: systemPrompt,
       messages: messages.map((m: { role: string; content: string }) => ({
         role: m.role as 'user' | 'assistant' | 'system',
