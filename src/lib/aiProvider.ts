@@ -33,12 +33,7 @@ export function getGroqModel() {
   if (!apiKey || apiKey.length <= 5) return null;
 
   const baseURL = process.env.AI_BASE_URL || 'https://api.groq.com/openai/v1';
-  let modelName = (process.env.AI_MODEL || 'openai/gpt-oss-20b').trim();
-
-  // If old deprecated model name was specified, upgrade to llama-3.3-70b-versatile
-  if (modelName.includes('3.1-8b') || modelName.includes('gpt-oss')) {
-    modelName = 'openai/gpt-oss-20b';
-  }
+  const modelName = (process.env.AI_MODEL || 'openai/gpt-oss-20b').trim();
 
   const customGroq = createOpenAI({
     apiKey,

@@ -2,17 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import connectToDatabase from '@/lib/mongodb';
 import DocumentModel from '@/models/Document';
 import { verifyAllQuotesInAnswer } from '@/lib/quoteVerifier';
-import { createOpenAI } from '@ai-sdk/openai';
-import { generateText } from 'ai';
-
-const apiKey = process.env.AI_API_KEY || process.env.OPENAI_API_KEY || 'mock-key';
-const baseURL = process.env.AI_BASE_URL || 'https://api.openai.com/v1';
-const modelName = process.env.AI_MODEL || 'gpt-4o-mini';
-
-const customOpenAI = createOpenAI({
-  apiKey,
-  baseURL,
-});
+import { generateTextWithFallback } from '@/lib/aiProvider';
 
 export async function POST(req: NextRequest) {
   try {
@@ -112,10 +102,9 @@ export async function POST(req: NextRequest) {
     // Round 3: Get Section #1 or #2
     const sectionRes = executeGetSection(1, 3);
 
-    // Final Agentic Synthesis
-    const prompt = `You are an Autonomous Legal Research Agent analyzing the contract "${document.filename}".
-
-Below are the execution step results from your tool lookups:
+    // Final Agentic Synthesis using Gemini / Groq fallback
+    const systemPrompt = `You are an Autonomous Legal Research Agent analyzing the contract "${document.filename}".`;
+    const userPrompt = `Below are the execution step results from your tool lookups:
 1. list_clauses() output: ${listRes}
 2. search_document("${keywords}") output: ${searchRes}
 3. get_section(1) output: ${sectionRes}
@@ -126,9 +115,9 @@ INSTRUCTIONS:
 Formulate a comprehensive legal research answer based strictly on the retrieved contract data above.
 Support your answer with exact quotes in double quotation marks "quoted text".`;
 
-    const { text } = await generateText({
-      model: customOpenAI(modelName),
-      prompt,
+    const { text } = await generateTextWithFallback({
+      system: systemPrompt,
+      prompt: userPrompt,
     });
 
     const quotes = verifyAllQuotesInAnswer(text, docText);
