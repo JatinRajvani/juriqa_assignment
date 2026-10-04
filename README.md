@@ -6,22 +6,48 @@ JuriQA provides contract analysis, version comparison, quote verification, and a
 
 ---
 
-## 🌟 Key Features
+## 🔗 Quick Links & Live Demos
 
-### 1. 📑 Dynamic Contract Comparison Engine
-- **Clause-Level Diff Alignment**: Aligns matching clauses across contract versions using BM25 semantic retrieval, even when section numbers change.
-- **Word-Level Highlighting**: Computes exact character and word-level modifications (`diffWords`) with visual deletion/addition highlights.
-- **Numeric & Monetary Shift Extraction**: Detects shifts in fees, percentages, notice periods, warranty durations, and liability caps.
-- **Legal Risk Severity Scoring**: Automatically rates risk impact as `High`, `Medium`, or `Low` based on legal exposure.
+* 🌐 **Live Web Application**: [juriqa-assignment-ten.vercel.app](https://juriqa-assignment-ten.vercel.app/)
+* 📹 **YouTube Demo Video**: [Watch Demo Video on YouTube](https://youtu.be/OIb0fSe2lME)
+* 📘 **Engineering Notes & Architecture**: [Read `ENGINEERING_NOTES.md`](ENGINEERING_NOTES.md)
+
+---
+
+## 🌟 Key Features & Screenshots
+
+### 1. 🤖 Autonomous Agentic Document Research
+*Multi-round tool calling loop (`list_clauses`, `search_document`, `get_section`) with live execution logs:*
+
+![Agentic Research](assets/agentic_research.png)
+
+* **Multi-Round Tool Calling**: Runs an autonomous investigation loop using tool lookups before formulating answers.
+* **Real-Time Execution Logs**: Displays live terminal logs of every tool step for transparency.
+
+---
 
 ### 2. 💬 Verified Quote Contract Q&A
-- **Strict Grounded Q&A**: Answers user queries using ONLY information present in the contract.
-- **Quote Precision & Verification**: Extracts exact double-quoted verbatim contract excerpts and verifies them against source text with position & page tracking.
-- **Clear Chat Management**: Delete and clear chat history per document.
+*Grounded answer streaming with double-quoted verbatim contract proof, page numbers, and missing info handlers:*
 
-### 3. 🤖 Autonomous Agentic Research Agent
-- **Multi-Round Tool Calling**: Runs an autonomous investigation loop using tool lookups (`list_clauses`, `search_document`, `get_section`) before formulating answers.
-- **Real-Time Execution Logs**: Displays live terminal logs of every tool step for transparency.
+![Quote Verification](assets/chat_verification.png)
+
+* **Strict Grounded Q&A**: Answers user queries using ONLY information present in the contract.
+* **Quote Precision & Verification**: Extracts exact double-quoted verbatim contract excerpts and verifies them against source text with position & page tracking.
+* **Clear Chat Management**: Delete and clear chat history per document.
+
+---
+
+### 3. 📑 Dynamic Contract Comparison Engine
+*Substantive risk summaries, High/Medium/Low risk cards, and word-level addition/deletion highlights:*
+
+![Contract Comparison](assets/contract_comparison.png)
+
+* **Clause-Level Diff Alignment**: Aligns matching clauses across contract versions using BM25 semantic retrieval, even when section numbers change.
+* **Word-Level Highlighting**: Computes exact character and word-level modifications (`diffWords`) with visual deletion/addition highlights.
+* **Numeric & Monetary Shift Extraction**: Detects shifts in fees, percentages, notice periods, warranty durations, and liability caps.
+* **Legal Risk Severity Scoring**: Automatically rates risk impact as `High`, `Medium`, or `Low` based on legal exposure.
+
+---
 
 ### 4. ⚡ Multi-Tier AI Resilience Architecture
 - **Groq API Primary**: High-throughput execution using Groq endpoints (`https://api.groq.com/openai/v1`).
@@ -49,6 +75,9 @@ JuriQA provides contract analysis, version comparison, quote verification, and a
 
 ```text
 docscanner/
+├── docs/
+│   ├── assets/                             # UI Screenshots & Media Assets
+│   └── ENGINEERING_NOTES.md                # Technical Decisions, BM25 & Fallback Notes
 ├── src/
 │   ├── app/
 │   │   ├── api/
@@ -130,13 +159,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🔒 Security & Best Practices
-
-- **Zero Hardcoded Benchmarks**: All document comparisons and analysis are computed 100% dynamically on uploaded contracts.
-- **Fail-Safe Streaming**: Provider fallbacks protect against single API key rate limits or downtime.
-- **Data Integrity**: Contract text and indexed chunks are stored safely in MongoDB Atlas.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
+## 📜 Technical Documentation
+For deep technical insights on how BM25 chunking handles 896-page contracts and how multi-tier provider fallbacks are implemented, please read [**`ENGINEERING_NOTES.md`**](ENGINEERING_NOTES.md).
