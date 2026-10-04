@@ -4,17 +4,8 @@ import DocumentModel from '@/models/Document';
 import ChatMessageModel from '@/models/ChatMessage';
 import { verifyAllQuotesInAnswer } from '@/lib/quoteVerifier';
 import { getContextForQuery } from '@/lib/retriever';
-import { createOpenAI } from '@ai-sdk/openai';
+import { getAIModel } from '@/lib/aiProvider';
 import { streamText } from 'ai';
-
-const apiKey = process.env.AI_API_KEY || process.env.OPENAI_API_KEY || 'mock-key';
-const baseURL = process.env.AI_BASE_URL || 'https://api.openai.com/v1';
-const modelName = process.env.AI_MODEL || 'gpt-4o-mini';
-
-const customOpenAI = createOpenAI({
-  apiKey,
-  baseURL,
-});
 
 export async function GET(req: NextRequest) {
   try {
@@ -101,7 +92,7 @@ ${contextResult.contextText}
 --- END OF CONTRACT DOCUMENT ---`;
 
     const result = streamText({
-      model: customOpenAI(modelName),
+      model: getAIModel(),
       system: systemPrompt,
       messages: messages.map((m: { role: string; content: string }) => ({
         role: m.role as 'user' | 'assistant' | 'system',
