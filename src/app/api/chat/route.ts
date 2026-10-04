@@ -128,3 +128,23 @@ ${contextResult.contextText}
     );
   }
 }
+
+export async function DELETE(req: NextRequest) {
+  try {
+    await connectToDatabase();
+    const { searchParams } = new URL(req.url);
+    const documentId = searchParams.get('documentId');
+
+    if (!documentId) {
+      return NextResponse.json({ error: 'documentId is required' }, { status: 400 });
+    }
+
+    await ChatMessageModel.deleteMany({ documentId });
+
+    return NextResponse.json({ success: true, message: 'Chat history deleted successfully' });
+  } catch (error) {
+    console.error('Error deleting chat history:', error);
+    return NextResponse.json({ error: 'Failed to delete chat history' }, { status: 500 });
+  }
+}
+

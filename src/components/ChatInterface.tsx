@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Square, Bot, User, RefreshCw, AlertCircle, Sparkles, CheckCircle2, AlertTriangle, ExternalLink, Info, Layers } from 'lucide-react';
+import { Send, Square, Bot, User, RefreshCw, AlertCircle, Sparkles, CheckCircle2, AlertTriangle, ExternalLink, Info, Layers, Trash2 } from 'lucide-react';
 
 export interface VerifiedQuote {
   quoteText: string;
@@ -79,12 +79,33 @@ export default function ChatInterface({
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [fetchingHistory, setFetchingHistory] = useState(true);
+  const [clearingChat, setClearingChat] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const abortControllerRef = useRef<AbortController | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const isLargeDocument = pageCount > 25;
+
+  const handleClearChat = async () => {
+    if (!documentId || clearingChat || messages.length === 0) return;
+    if (!confirm('Are you sure you want to clear the chat history for this document?')) return;
+
+    setClearingChat(true);
+    try {
+      const res = await fetch(`/api/chat?documentId=${documentId}`, {
+        method: 'DELETE',
+      });
+      if (!res.ok) throw new Error('Failed to delete chat history');
+      setMessages([]);
+    } catch (err) {
+      console.error('Error clearing chat history:', err);
+      setError('Failed to clear chat history');
+    } finally {
+      setClearingChat(false);
+    }
+  };
+
 
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -259,7 +280,20 @@ export default function ChatInterface({
           )}
         </div>
 
-        {fetchingHistory && <RefreshCw className="w-3.5 h-3.5 text-slate-400 animate-spin" />}
+        <div className="flex items-center space-x-2">
+          {fetchingHistory && <RefreshCw className="w-3.5 h-3.5 text-slate-400 animate-spin" />}
+          {messages.length > 0 && (
+            <button
+              onClick={handleClearChat}
+              disabled={clearingChat}
+              title="Clear chat history for this contract"
+              className="p-1.5 bg-slate-800 hover:bg-red-500/20 border border-slate-700 hover:border-red-500/30 text-slate-400 hover:text-red-400 rounded-lg transition flex items-center space-x-1 text-[10px]"
+            >
+              <Trash2 className="w-3.5 h-3.5" />
+              <span>Clear Chat</span>
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Messages List Container */}
